@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="9.1.0"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="SLEEP"/>
+    <parm name="ModifiedDate" value="2019-10-01 22:25:58"/>
+    <parm name="TargetSystemVersion" value="6.0"/>
+    <characteristic type="DisplayMgr" version="5.0">
+      <parm name="emdk_name" value=""/>
+      <parm name="TimeoutInterval" value="1800"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="GPS"/>
+    <parm name="ModifiedDate" value="2018-11-05 11:31:36"/>
+    <parm name="TargetSystemVersion" value="8.0"/>
+    <characteristic type="WirelessMgr" version="7.1">
+      <parm name="emdk_name" value=""/>
+      <parm name="GPSState" value="1"/>
+      <parm name="GPSLocationMode" value="2"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="HOSTS"/>
+    <parm name="ModifiedDate" value="2018-11-02 17:54:18"/>
+    <parm name="TargetSystemVersion" value="5.1"/>
+    <characteristic type="HostsMgr" version="5.1">
+      <parm name="emdk_name" value=""/>
+      <parm name="HostName" value="MY_NAME_IS_NDZL"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="SETCLOCK"/>
+    <parm name="ModifiedDate" value="2018-11-13 14:57:58"/>
+    <parm name="TargetSystemVersion" value="7.1"/>
+    <characteristic type="Clock" version="6.0">
+      <parm name="emdk_name" value=""/>
+      <parm name="AutoTimeZone" value="false"/>
+      <parm name="TimeZone" value="GMT+1"/>
+      <parm name="AutoTime" value="false"/>
+      <parm name="Date" value="2018-11-14"/>
+      <parm name="Time" value="11:11:11"/>
+      <parm name="MilitaryTime" value="1"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="DISPLAY"/>
+    <parm name="ModifiedDate" value="2018-11-07 17:46:37"/>
+    <parm name="TargetSystemVersion" value="7.2"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="AUTOCLOCK"/>
+    <parm name="ModifiedDate" value="2019-04-04 18:08:17"/>
+    <parm name="TargetSystemVersion" value="4.2"/>
+    <characteristic type="Clock" version="4.2">
+      <parm name="emdk_name" value=""/>
+      <parm name="AutoTime" value="true"/>
+      <characteristic type="AutoTimeDetails">
+        <parm name="NTPServer" value="europe.pool.ntp.org"/>
+        <parm name="SyncInterval" value="00:30:00"/>
+      </characteristic>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="MAX_AUDIO"/>
+    <parm name="ModifiedDate" value="2020-08-13 15:18:33"/>
+    <parm name="TargetSystemVersion" value="7.2"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="PROFILE1_UPDATE_APP"/>
+    <parm name="ModifiedDate" value="2020-09-30 12:14:38"/>
+    <parm name="TargetSystemVersion" value="9.2"/>
+    <characteristic type="AppMgr" version="9.1">
+      <parm name="emdk_name" value=""/>
+      <parm name="Action" value="Upgrade"/>
+      <parm name="APK" value="/sdcard/Download/sleep-updatedversion.apk"/>
+    </characteristic>
+    <characteristic type="AppMgr" version="9.1">
+      <parm name="emdk_name" value=""/>
+      <parm name="Action" value="LaunchApplication"/>
+      <parm name="ApplicationName" value="EMDK PROFILES"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="PROFILE2_RESTART_APP"/>
+    <parm name="ModifiedDate" value="2020-09-30 12:12:41"/>
+    <parm name="TargetSystemVersion" value="9.2"/>
+    <characteristic type="AppMgr" version="9.1">
+      <parm name="emdk_name" value=""/>
+      <parm name="Action" value="LaunchApplication"/>
+      <parm name="ApplicationName" value="EMDK PROFILES"/>
+    </characteristic>
+    <characteristic type="DisplayMgr" version="9.2">
+      <parm name="emdk_name" value=""/>
+      <parm name="TimeoutInterval" value="1800"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="BRT_GPS"/>
+    <parm name="ModifiedDate" value="2021-07-18 23:20:18"/>
+    <parm name="TargetSystemVersion" value="8.1"/>
+    <characteristic type="DisplayMgr" version="7.2">
+      <parm name="emdk_name" value=""/>
+      <parm name="TimeoutInterval" value="120"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="BRT_WLAN"/>
+    <parm name="ModifiedDate" value="2021-07-18 23:20:51"/>
+    <parm name="TargetSystemVersion" value="8.1"/>
+    <characteristic type="WirelessMgr" version="7.1">
+      <parm name="emdk_name" value=""/>
+      <parm name="BluetoothState" value="1"/>
+    </characteristic>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="BRT_END"/>
+    <parm name="ModifiedDate" value="2021-07-18 23:22:07"/>
+    <parm name="TargetSystemVersion" value="8.1"/>
+    <characteristic type="UiMgr" version="8.1">
+      <parm name="emdk_name" value=""/>
+      <parm name="ClipBoardClear" value="true"/>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
